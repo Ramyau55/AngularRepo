@@ -1,0 +1,15 @@
+.marginAlign {
+    margin-left:15%;
+    margin-top: 5% ;
+}
+.displayResults {
+    color: coral ;
+}
+.displayCity {
+    color:darkblue ;
+}
+.displayTitle {
+    padding-left: 10% ;
+    padding-bottom: 5% ;
+    color:darkred;
+}

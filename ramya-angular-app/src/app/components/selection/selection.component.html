@@ -1,5 +1,13 @@
-<form (ngSubmit)="submit()">
-  City:<br>
-  <input type="text" name="city" [(ngModel)]="city"><br>
-  <input type="submit" value="Submit">
+<form class="marginAlign" (ngSubmit)="submit()">
+  <b>Choose the City:</b><br>
+ 
+  <select name="city" [(ngModel)]="city" class="form-control dropdown">   
+    <option >Namakkal</option>
+    <option>Karur</option>
+    <option>Halifax</option>
+    <option>California</option>
+    <option>Boston</option>
+    <option>Coimbatore</option>
+</select><br>
+  <input type="submit" class="btn btn-primary" value="Submit">
 </form>

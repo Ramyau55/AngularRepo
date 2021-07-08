@@ -1,6 +1,9 @@
-<h2>{{value.city}}</h2>
+<div class="marginAlign">
+<h1 class="displayTitle">Welcome to Weather App</h1>
+<h2 class="displayCity">{{value.city}}</h2>
 <img [src]="value.icon" style="float: left;"/>
-<p>
+<p class="displayResults">
   Conditions: {{value.conditions}}<br/>
   Temperature: {{value.temperature}} °F<br/>
 </p>
+</div>
